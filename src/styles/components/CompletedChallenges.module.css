@@ -1,0 +1,19 @@
+.completedChallengesContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 3.5rem 0;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid #d7d8da;
+    font-weight: 500;
+    color: var(--text);
+}
+
+.completedChallengesContainer span:first-child {
+    font-size: 1rem;
+}
+
+.completedChallengesContainer span:last-child {
+    font-family: Rajdhani;
+    font-size: 1.75rem;
+}
