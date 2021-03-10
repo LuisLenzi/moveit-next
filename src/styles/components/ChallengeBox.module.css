@@ -1,4 +1,4 @@
-.challengeboxContainer {
+.challengeBoxContainer {
     height: 100%;
     background: var(--white);
     border-radius: 5px;
@@ -19,9 +19,11 @@
 
 .challengeNotActive strong {
     color: var(--primary-button);
-    font-size: 1.75rem;
+    font-size: 2rem;
     font-weight: 500;
-    line-height: 1.25;
+    line-height: 1;
+    text-align: left;
+    width: 80%;
 }
 
 .challengeNotActive p {
@@ -33,12 +35,12 @@
     align-items: center;
     text-align: left;
     line-height: 1.25;
-    max-width: 50%;
+    max-width: 75%;
     margin-top: 3rem;
 }
 
 .challengeNotActive p img {
-    margin-right: 1rem;
+    margin-right: 2rem;
     height: 85%;
 }
 
@@ -52,7 +54,7 @@
     color: var(--primary-button);
     font-weight: 600;
     font-size: 1.25rem;
-    padding: 0 2rem 1.5rem;
+    padding: 0 2rem 1.25rem;
     border-bottom: 1px solid var(--gray-line);
 }
 
@@ -69,11 +71,12 @@
     font-size: 2rem;
     font-weight: 600;
     color: var(--primary-button);
-    margin: 1.5rem 0 1 rem;
+    margin-bottom: 1rem;
 }
 
 .challengeIsActive main p{
-    line-height: 1.5;
+    margin-top: .75rem;
+    line-height: 1.25;
     width: 80%;
     font-size: 1rem;
     color: var(--primary-button);
@@ -86,6 +89,7 @@
 }
 
 .challengeIsActive footer button{
+    margin-bottom: .45rem;
     display: flex;
     height: 3rem;
     align-items: center;
