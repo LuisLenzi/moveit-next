@@ -1,37 +1,40 @@
 .experienceBar{
-    margin-bottom: 3rem;
+    margin-bottom: 3.5rem;
+    font-family: Rajdhani;
     display: flex;
     align-items: center;
     color: var(--white);
 }
 
 .experienceBar span{
-    font-size: 1rem;
+    font-size: 1.25rem;
 }
 
 .experienceBar > div{
     flex: 1;
-    height: 4px;
-    border-radius: 4px;
+    height: 0.4rem;
+    border-radius: .5rem;
     background: var(--white);
     margin: 0 1.5rem;
     position: relative;
 }
 
 .experienceBar > div > div{
-    height: 4px;
-    border-radius: 4px;
+    height: 0.4rem;
+    border-radius: .5rem;
     background: var(--primary-button);
 }
 
 span.currentExperience{
+    font-size: 1rem;
     position: absolute;
-    top: 12px;
+    top: .75rem;
     transform: translateX(-50%);
 }
 
 @media only screen and (max-width: 1368px){
     .experienceBar{
-        margin-bottom: 3rem;
+        margin-top: .5rem;
+        margin-bottom: 2rem;
     }
 }

@@ -14,12 +14,14 @@
     background: var(--white);
     box-shadow: 0 0 25px rgba(252, 252, 252, 0.200);
     border-radius: 0.5rem;
-    font-size: 8.5rem;
+    font-size: 8rem;
     text-align: center;
 }
 
 .countdownContainer > div span {
-    flex: 1;
+    flex: 1;    
+    padding-top: .75rem;
+    text-align: center;
 }
 
 .countdownContainer > div span:first-child {
@@ -39,7 +41,7 @@
 .countdownButton {
     width: 100%;
     height: 5rem;
-    margin-top: 2rem;
+    margin-top: 1.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
