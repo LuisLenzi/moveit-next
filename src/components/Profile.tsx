@@ -9,6 +9,7 @@ export function Profile() {
             <img src="https://github.com/LuisLenzi.png" alt="Luís Lenzi" />
             <div>
                 <strong>Luís Lenzi</strong>
+                <a href="https://github.com/LuisLenzi">Github User</a>
                 <p><img src="icons/level.svg" alt="Level"/>Level {level}</p>
             </div>
         </div>

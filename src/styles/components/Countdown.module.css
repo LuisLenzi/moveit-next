@@ -53,10 +53,12 @@
     font-weight: 500;
     transition: background-color 0.4s;
     outline: none;
+    transition: 0.8s;
 }
 
 .countdownButton:not(:disabled):hover {
     background: var(--primary-hover);
+    transform: translateY(1rem);
 }
 
 .countdownButtonActive {

@@ -16,8 +16,18 @@
 }
 
 .profileContainer div strong {
+    display: flex;
     font-size: 1.5rem;
     font-weight: 600;
+    color: var(--white);
+}
+
+.profileContainer div a {
+    font-size: .85rem;
+    transition: 0.8s;
+}
+
+.profileContainer div a:hover {
     color: var(--white);
 }
 

@@ -29,6 +29,7 @@ span.currentExperience{
     font-size: 1rem;
     position: absolute;
     top: .75rem;
+    width: 10%;
     transform: translateX(-50%);
 }
 
