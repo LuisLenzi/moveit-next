@@ -4,9 +4,7 @@ import { ChallengesContext, ChallengesProvider } from '../contexts/ChallengeCont
 function MyApp({ Component, pageProps }) {
 
   return (
-    <ChallengesProvider>
-        <Component {...pageProps} />
-    </ChallengesProvider>
+    <Component {...pageProps} />
   )
 }
 
